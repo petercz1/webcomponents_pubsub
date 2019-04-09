@@ -22,7 +22,7 @@ To check, I then ran [tokei](https://github.com/XAMPPRocky/tokei) on the clean i
  CSS                    38         1827         1704           24           99
  Handlebars              3           92           77            0           15
  HTML                   58         8598         8389           67          142
- JavaScript          *23409*      2988527      *1990585*       618054       379888
+ JavaScript          23409      2988527      1990585       618054       379888
  JSON                 2197       233727       233727            0            0
  Makefile               44         1875         1209          196          470
  Markdown             2985       549713       549713            0            0
