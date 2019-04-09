@@ -62,7 +62,7 @@ this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
 ```
 The third parameter is to pass data eg 'id' - I've not implemented it as I've spent too much time faffing on this already.
 
-### structore
+### structure
 ```
 ├── css
 │   └── style.css
