@@ -34,7 +34,7 @@ class appAddperson extends HTMLElement {
 
   // random name generator for testing, saves having to type a value into the input box
   generateName(){
-    let names = ['bill', 'bob','brenda', 'bert','barry', 'brian', 'boomer', 'butch', 'beau', 'benny', 'bessie', 'bonza','bunty', 'boris', 'broderi'];
+    let names = ['bill', 'bob','brenda', 'bert','barry', 'brian', 'boomer', 'butch', 'beau', 'benny', 'bessie', 'bonza','bunty', 'boris', 'broderick',''];
     this.querySelector('#name').value = names[Math.floor(Math.random() * names.length)];
   }
 
