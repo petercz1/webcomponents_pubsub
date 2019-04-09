@@ -51,6 +51,6 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
  Total                  13          477          385           33           59
  ```
 ### how does it work?
-Object that have something to say publish the type of 
+Object that have something to say publish the type of news item and an object of data
 
 ![](demo.gif)
