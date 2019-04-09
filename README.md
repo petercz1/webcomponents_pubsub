@@ -58,6 +58,8 @@ Objects that have something to say publish the type of news item and an object o
 ```
 Objects that are interested in those news items subscribe to them, giving the callback function they want used whenever anything happens:
 ```
-
+this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
+```
+I put in the 
 
 ![](demo.gif)
