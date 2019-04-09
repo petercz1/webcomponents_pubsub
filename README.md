@@ -4,7 +4,7 @@ No frameworks, just pure JavaScript ES6.
 
 It uses webcomponents and pubsub pattern to allow each component to subscribe and/or publish to the datastore.
 
-
+## why?
 
 Recently I did the usual create-react-app myapp and while waiting for it to build I realized that it was producing an *awful* lot of code.
 
