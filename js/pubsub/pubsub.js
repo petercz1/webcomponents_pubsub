@@ -3,11 +3,11 @@ import DataStore from './datastore.js';
 class PubSub {
   constructor() {
     this.datastore = DataStore
-    this.listeners = [];
+    this.subscribers = [];
   }
 
   subscribe(callback, request, data) {
-    this.listeners.push({
+    this.subscribers.push({
       callback,
       request,
       data
@@ -27,7 +27,7 @@ class PubSub {
     });
 
     // alert all susbscribers to new/changed data
-    this.listeners.forEach((listener) => {
+    this.subscribers.forEach((listener) => {
       listener.callback(this.datastore.getRequest(listener));
     });
   }
