@@ -84,6 +84,6 @@ this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
 ```
 The third parameter is to pass data eg 'id' - I've not implemented it as I've spent too much time faffing on this already.
 
-I've not bothered with shadow dom as I'm a) fine with code encapulation with
+I've not bothered with shadow dom as I'm a) fine with code encapulation using modules/classes/e
 
 Enjoy.
