@@ -2,7 +2,7 @@
 
 No frameworks, just pure JavaScript ES6.
 
-It uses webcomponents and pubsub pattern to allow each component to subscribe and/or publish to the datastore.
+It uses webcomponents and the pubsub pattern to allow each component to subscribe and/or publish to the datastore.
 
 ![](demo.gif)
 
