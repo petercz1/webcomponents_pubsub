@@ -57,4 +57,5 @@ Objects that have something to say publish the type of news item and an object o
     this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
 ```
 
+
 ![](demo.gif)
