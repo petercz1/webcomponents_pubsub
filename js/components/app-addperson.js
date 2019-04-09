@@ -4,6 +4,7 @@ class appAddperson extends HTMLElement {
   constructor() {
     super();
     this.pubsub = PubSub;
+    // binds 'this' to these methods
     this.renderData = this.renderData.bind(this);
     this.addPerson = this.addPerson.bind(this);
     this.renderData();
