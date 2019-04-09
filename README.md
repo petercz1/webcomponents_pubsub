@@ -8,7 +8,7 @@ It uses webcomponents and the pubsub pattern to allow each component to subscrib
 
 ### why?
 
-Recently I did the usual `create-react-app myapp and while waiting for it to build I realized that it was producing an *awful* lot of code.
+Recently I did the usual `create-react-app myapp` and while waiting for it to build I realized that it was producing an *awful* lot of code.
 
 To check, I then ran [tokei](https://github.com/XAMPPRocky/tokei) on the clean install:
 
