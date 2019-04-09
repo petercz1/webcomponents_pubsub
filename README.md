@@ -52,9 +52,7 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
  ```
 ### how does it work?
 Object that have something to say publish the type of news item and an object of data:
-    this.pubsub.publish('NewPerson', person);
-    this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
-	```
+```
 
 
 ![](demo.gif)
