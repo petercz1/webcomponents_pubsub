@@ -83,8 +83,7 @@ The third parameter is to pass data eg 'id' - I've not implemented it as I've sp
 │       ├── datastore.js
 │       └── pubsub.js
 └── README.md
-
-
+```
 Enjoy.
 
 ![](demo.gif)
