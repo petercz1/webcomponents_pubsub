@@ -27,8 +27,8 @@ class PubSub {
     });
 
     // alert all susbscribers to new/changed data
-    this.subscribers.forEach((listener) => {
-      listener.callback(this.datastore.getRequest(listener));
+    this.subscribers.forEach((subscriber) => {
+      subscriber.callback(this.datastore.getRequest(subscriber));
     });
   }
 
