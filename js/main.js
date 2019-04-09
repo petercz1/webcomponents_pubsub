@@ -8,6 +8,6 @@ import './components/app-chosenperson.js';
 
 class demo{
 	readout(){
-		
+		console.log('reading...');
 	}
 }
