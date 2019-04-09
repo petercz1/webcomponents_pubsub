@@ -7,5 +7,5 @@ import './components/app-chosenpeople.js';
 import './components/app-chosenperson.js';
 
 class demo{
-	
+	read
 }
