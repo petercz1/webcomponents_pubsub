@@ -60,6 +60,6 @@ Objects that are interested in those news items subscribe to them, giving the ca
 ```
 this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
 ```
-The third parameter is to pass data eg 
+The third parameter is to pass data eg 'id' - I
 
 ![](demo.gif)
