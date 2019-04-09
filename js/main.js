@@ -11,3 +11,7 @@ class demo{
 		console.log('reading...');
 	}
 }
+
+function dim(){
+	console.log('dimo');
+}
