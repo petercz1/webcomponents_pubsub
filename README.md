@@ -62,28 +62,6 @@ this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
 ```
 The third parameter is to pass data eg 'id' - I've not implemented it as I've spent too much time faffing on this already.
 
-### structure
-```
-├── css
-│   └── style.css
-├── demo.gif
-├── favicon.ico
-├── index.html
-├── js
-│   ├── components
-│   │   ├── app-addperson.js
-│   │   ├── app-chosenpeople.js
-│   │   ├── app-chosenperson.js
-│   │   ├── app-console.js
-│   │   ├── app-messages.js
-│   │   ├── app-people.js
-│   │   └── app-person.js
-│   ├── main.js
-│   └── pubsub
-│       ├── datastore.js
-│       └── pubsub.js
-└── README.md
-```
 Enjoy.
 
 ![](demo.gif)
