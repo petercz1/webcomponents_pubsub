@@ -76,6 +76,7 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
 Objects that have something to say publish the type of NewInfo and an object of data:
 ```
     this.pubsub.publish('NewPerson', person);
+    this.pubsub.publish('NewPerson', person);
     this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
 ```
 Objects that are interested in those news items subscribe to the NewInfo, state what info they want, pass parameters if needed (eg id) and give the callback function they want to be fired:
