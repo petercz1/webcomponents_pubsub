@@ -14,7 +14,7 @@ class DataStore {
   getRequest(subscriber) {
     console.log(subscriber);
     let req = subscriber.request;
-    return this[subscriber.request](subscriber.parameters);
+    return this[req](subscriber.parameters);
     //return res;
   }
 
