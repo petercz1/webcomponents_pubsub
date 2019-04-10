@@ -39,7 +39,6 @@ class DataStore {
   }
 
   // get and set messages
-  
   getMessage() {
     return this.message;
   }
