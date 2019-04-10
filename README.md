@@ -42,7 +42,7 @@ Yikes! 23 thousand+ files, nearly 2 MILLION lines of JavaScript and I haven't ev
 And then Microsoft announced they were giving up developing their own browser [and going with chromium](https://www.theverge.com/2019/4/8/18300077/microsoft-edge-chromium-canary-development-release-download).
 
 Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this demo, which clocks in as follows:
-``-------------------------------------------------------------------------------
+```-------------------------------------------------------------------------------
  Language            Files        Lines         Code     Comments       Blanks
 -------------------------------------------------------------------------------
  CSS                     1           53           46            0            7
