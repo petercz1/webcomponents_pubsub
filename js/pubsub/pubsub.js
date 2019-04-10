@@ -13,6 +13,7 @@ class PubSub {
       parameters,
       callback
     });
+    console.log(this.sub);
   }
 
   unsubscribe(callback) {
