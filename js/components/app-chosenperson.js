@@ -1,4 +1,3 @@
-
 class appChosenPerson extends HTMLElement {
   constructor(person) {
     super();
