@@ -13,7 +13,7 @@ class DataStore {
   // by passing a variable eg id (not implemented here)
   getRequest(subscriber) {
     console.log(subscriber);
-    //let req = 'get' + subscriber.request;
+    let req = subscriber.request;
     return this[subscriber.request](subscriber.parameters);
     //return res;
   }
