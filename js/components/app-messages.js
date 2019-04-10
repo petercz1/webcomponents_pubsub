@@ -8,7 +8,7 @@ class appMessages extends HTMLElement {
 		this.renderData(this.pubsub.getData('Message', null));
 		this.pubsub.subscribe('message', 'getMessage', null, this.renderData);
   }
-  	
+  	// renders
 	renderData(message){
 		this.innerHTML = `
 			<small>&lt;app-messages&gt;</small>
