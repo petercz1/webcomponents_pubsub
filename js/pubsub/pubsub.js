@@ -6,9 +6,9 @@ class PubSub {
     this.subscribers = [];
   }
 
-  subscribe(newsItem, request, parameters, callback) {
+  subscribe(newInfo, request, parameters, callback) {
     this.subscribers.push({
-      newsItem,
+      newInfo,
       request,
       parameters,
       callback
@@ -20,16 +20,16 @@ class PubSub {
     // TODO implement!
   }
 
-  publish(newsItem, data) {
+  publish(newInfo, data) {
 
     // publish the new/changed data
     this.datastore.setRequest({
-      newsItem,
+      newInfo,
       data
     });
 
     // alert all susbscribers to new/changed data
-    this.subscribers.filter(subscriber => (subscriber.newsItem == newsItem)).forEach((subscriber) => {
+    this.subscribers.filter(subscriber => (subscriber.newInfo == newInfo)).forEach((subscriber) => {
       subscriber.callback(this.datastore.getRequest(subscriber.request));
     });
   }
