@@ -59,7 +59,7 @@ class DataStore {
     this.people.push(data);
     //}
   }
-  setChange(data) {
+  setChangePerson(data) {
     this.getPeople().filter(person => (person.id == data.id)).checked = data.checked;
   }
   setDeletePerson(data) {
