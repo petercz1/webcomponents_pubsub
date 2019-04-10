@@ -31,7 +31,7 @@ class PubSub {
     // alert all susbscribers to new/changed data
     console.log(this.subscribers);
     this.subscribers.filter(subscriber => (subscriber.newInfo == newInfo)).forEach((subscriber) => {
-      console.log(subs);
+      console.log(subscriber);
       subscriber.callback(this.datastore.getRequest(subscriber.request));
     });
   }
