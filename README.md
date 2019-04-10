@@ -92,7 +92,7 @@ We would have
 ```
 this.pubsub.subscribe({'NewPerson','ChangePerson','DeletePerson'} 'getChosenPeople', null, this.renderData);
 ```
-but then it would be more tricky to assign specific 
+but then it would be more tricky to assign specific requests/callbacks rto eac
 I've not bothered with shadow dom as I like using Bootstrap to control overall style.
 
 Enjoy.
