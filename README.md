@@ -96,7 +96,7 @@ but then it would be more tricky to assign specific requests/callbacks to each N
 
 Also I've not bothered with shadow dom as I like using Bootstrap to control overall css. If you want to add it, it's an easy two-part step:
 
-* attach the shadow to the root after super() in the constructor:
+* attach the shadow to the root after super() in all constructor:
 ```
 constructor(){
     super();
