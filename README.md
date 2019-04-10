@@ -103,6 +103,6 @@ constructor(){
     this.root = this.attachShadow({mode: 'open});
     // etc
 }
-* change all `this.innerHTML` references to `this.root
+* change all `this.innerHTML` references to `this.root.innerHT
 
 Enjoy.
