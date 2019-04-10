@@ -62,7 +62,7 @@ class DataStore {
   setChange(data) {
     this.getPeople().filter(person => (person.id == data.id)).checked = data.checked;
   }
-  setDelete(data) {
+  setDeletePerson(data) {
     // filter returns a copy of the array, which then replaces the original
     this.people = this.people.filter(person => {
       return person.id != data.id;
