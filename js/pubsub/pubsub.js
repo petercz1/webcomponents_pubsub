@@ -32,7 +32,7 @@ class PubSub {
     console.log(newInfo);
     this.subscribers.filter(subscriber => (subscriber.newInfo == newInfo)).forEach((subscriber) => {
       console.log(subscriber);
-      subscriber.callback(this.datastore.getRequest(subscriber.request));
+      subscriber.callback(this.datastore.getRequest(subscriber));
     });
   }
 
