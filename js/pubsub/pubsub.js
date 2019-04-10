@@ -30,7 +30,7 @@ class PubSub {
 
     // alert all susbscribers to new/changed data
     this.subscribers.filter(subscriber => (subscriber.newsItem == newsItem)).forEach((subscriber) => {
-      subscriber.callback(this.datastore.getRequest(subscriber));
+      subscriber.callback(this.datastore.getRequest(subscriber.));
     });
   }
 
