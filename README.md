@@ -100,7 +100,7 @@ Also I've not bothered with shadow dom as I like using Bootstrap to control over
 ```
 constructor(){
     super();
-    this.root = this.attachShadow
+    this.root = this.attachShadow({mode})
 }
 
 Enjoy.
