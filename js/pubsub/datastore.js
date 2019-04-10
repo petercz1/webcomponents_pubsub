@@ -19,7 +19,7 @@ class DataStore {
   }
 
   setRequest(request) {
-    let req = 'set' + request.method;
+    let req = 'set' + request.newItem;
     let res = this[req](request.data);
     return res;
   }
