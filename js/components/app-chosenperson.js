@@ -1,9 +1,9 @@
-import PubSub from '../pubsub/pubsub.js';
+//import PubSub from '../pubsub/pubsub.js';
 
 class appChosenPerson extends HTMLElement {
   constructor(person) {
     super();
-    this.pubsub = PubSub;
+    //this.pubsub = PubSub;
     this.renderData = this.renderData.bind(this);
     this.renderData(person)
   }

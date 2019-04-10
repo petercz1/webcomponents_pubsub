@@ -7,10 +7,10 @@ class appChosenPeople extends HTMLElement {
     this.pubsub = PubSub;
     this.renderData = this.renderData.bind(this);
     this.renderData(this.pubsub.getData('ChosenPeople', null));
-    this.pubsub.subscribe(this.renderData, 'ChosenPeople', null);
+    this.pubsub.subscribe('newPerson', 'getChosenPeople', null, this.renderData);
   }
 
-  // renders data == 'ChosenPeople'
+  // renders all data from 'getChosenPeople()'
   renderData(data) {
     this.innerHTML = `
       <small>&lt;app-chosenpeople&gt;</small>

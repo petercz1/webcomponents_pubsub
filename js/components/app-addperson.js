@@ -27,8 +27,8 @@ class appAddperson extends HTMLElement {
       checked: true,
       // id: this.pubsub.getData('Count', null) + 1
     };
-    this.pubsub.publish('NewPerson', person);
-    this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
+    this.pubsub.publish('newPerson', person);
+    this.pubsub.publish('message', {"component": "app-addperson", "text": "adding " + person.name});
     this.generateName();
   }
 
