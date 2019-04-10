@@ -35,8 +35,8 @@ class PubSub {
 
   getData(request, data) {
     // I decided to have the PubSub class act as the interface to
-    // all transactions between modules and datastore, hence
-    // this handles non-publish/subscribe requests for info
+    // all transactions between modules and datastore, hence this handles 
+    non-publish/subscribe requests for info
     // such as getting totals before publishing a new record
     // eg 'getCheckedTotal()'
     // I added 'data' as part of the request if a parameter needed to be passed in
