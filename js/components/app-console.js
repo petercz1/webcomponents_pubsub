@@ -6,7 +6,7 @@ class appConsole extends HTMLElement {
 		this.pubsub = PubSub;
 		this.renderData = this.renderData.bind(this);
 		this.renderData(this.pubsub.getData('getPeople', null));
-		this.pubsub.subscribe('newPerson', 'getPeople', null, this.renderData);
+		this.pubsub.subscribe('NewPerson', 'getPeople', null, this.renderData);
   }
 
 	// renders all data from 'getPeople()'
