@@ -84,6 +84,9 @@ Objects that are interested in those news items subscribe to the NewInfo, state 
 ```
 I coul have wrapped all requests in an object, so instead of 
 ```
+this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
+    this.pubsub.subscribe('ChangePerson', 'getChosenPeople', null, this.renderData);
+    this.pubsub.subscribe('DeletePerson', 'getChosenPeople', null, this.renderData);
 
 I've not bothered with shadow dom as I like using Bootstrap to control overall style.
 
