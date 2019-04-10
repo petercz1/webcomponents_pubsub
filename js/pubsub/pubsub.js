@@ -38,7 +38,7 @@ class PubSub {
     // all transactions between modules and datastore, hence
     // this handles non-publish/subscribe requests for info
     // such as getting totals before publishing a new record
-    // eg request of 'CheckedTotal' returns 'getCheckedTotal()' in datastore
+    // eg 'getCheckedTotal()' in datastore
     // I added 'data' as part of the request if a parameter needed to be passed in
     // such as specific id (not implemented here)
     return this.datastore.getRequest({
