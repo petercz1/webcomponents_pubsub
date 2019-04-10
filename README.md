@@ -92,6 +92,7 @@ We would have
 ```
 this.pubsub.subscribe({'NewPerson','ChangePerson','DeletePerson'} 'getChosenPeople', null, this.renderData);
 ```
+
 I've not bothered with shadow dom as I like using Bootstrap to control overall style.
 
 Enjoy.
