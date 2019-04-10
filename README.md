@@ -90,7 +90,7 @@ this.pubsub.subscribe('DeletePerson', 'getChosenPeople', null, this.renderData);
 ```
 We would have
 ```
-this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
+this.pubsub.subscribe({'NewPerson', 'getChosenPeople', null, this.renderData);
 ```
 I've not bothered with shadow dom as I like using Bootstrap to control overall style.
 
