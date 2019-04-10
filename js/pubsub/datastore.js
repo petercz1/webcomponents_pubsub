@@ -12,7 +12,6 @@ class DataStore {
   // I added 'listener.data' in case someone wants to extend the idea
   // by passing a variable eg id (not implemented here)
   getRequest(subscriber) {
-    console.log(subscriber);
     //let req = subscriber.request;
     return this[subscriber.request](subscriber.parameters);
     //return res;
