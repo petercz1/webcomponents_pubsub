@@ -103,6 +103,6 @@ constructor(){
     this.root = this.attachShadow({mode: 'open});
     // etc
 }
-
+* 
 
 Enjoy.
