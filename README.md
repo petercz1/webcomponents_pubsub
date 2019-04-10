@@ -98,6 +98,9 @@ Also I've not bothered with shadow dom as I like using Bootstrap to control over
 
 * attach the shadow to the root after super() in the constructor:
 ```
-constructor
+constructor(){
+    super();
+    this.root = this
+}
 
 Enjoy.
