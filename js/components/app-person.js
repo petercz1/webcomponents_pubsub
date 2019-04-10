@@ -28,7 +28,7 @@ class appPerson extends HTMLElement {
   registerChange() {
     // publish change to status of person
     this.person.checked = !this.person.checked;
-    this.pubsub.publish('Change', this.person);
+    this.pubsub.publish('ChangePerson', this.person);
 
     // generate and publish new message
     let txt = '';
