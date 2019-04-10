@@ -10,7 +10,7 @@ class appPeople extends HTMLElement {
     this.pubsub.subscribe('newPerson', 'getPeople', null, this.renderData);
   }
 
-  // renders all people returned from 'getPeople()
+  // renders all people returned from 'getPeople()'
   renderData(people) {
     this.innerHTML = `
       <small>&lt;app-people&gt;</small>
