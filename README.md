@@ -82,7 +82,6 @@ Objects that are interested in those news items subscribe to the news item, stat
 ```
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
 ```
-The third parameter is to pass data eg 'id' - I've not implemented it as I've spent too much time faffing on this already.
 
 I've not bothered with shadow dom as I like using Bootstrap to control overall style.
 
