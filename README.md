@@ -88,7 +88,7 @@ this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
 this.pubsub.subscribe('ChangePerson', 'getChosenPeople', null, this.renderData);
 this.pubsub.subscribe('DeletePerson', 'getChosenPeople', null, this.renderData);
 ```
-We would have
+we would have
 ```
 this.pubsub.subscribe({'NewPerson','ChangePerson','DeletePerson'} 'getChosenPeople', null, this.renderData);
 ```
