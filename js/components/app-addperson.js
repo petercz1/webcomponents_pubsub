@@ -26,7 +26,7 @@ class appAddperson extends HTMLElement {
       name: document.querySelector('#name').value,
       checked: true,
     };
-    this.pubsub.publish('newPerson', person);
+    this.pubsub.publish('ewPerson', person);
     this.pubsub.publish('message', {"component": "app-addperson", "text": "adding " + person.name});
 
     // generate new random name
