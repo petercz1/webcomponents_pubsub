@@ -7,7 +7,7 @@ class appPeople extends HTMLElement {
     this.pubsub = PubSub;
     this.renderData = this.renderData.bind(this);
     this.renderData(this.pubsub.getData('People',null));
-    this.pubsub.subscribe(this.renderData, 'People', null);
+    this.pubsub.subscribe('this.renderData, 'People', null);
   }
 
   renderData(people) {
