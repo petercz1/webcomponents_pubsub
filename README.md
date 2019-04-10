@@ -78,7 +78,7 @@ Objects that have something to say publish the type of news item and an object o
     this.pubsub.publish('NewPerson', person);
     this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
 ```
-Objects that are interested in those news items subscribe to them, giving the callback function they want used whenever anything happens:
+Objects that are interested in those news items subscribe to the new, giving the callback function they want used whenever anything happens:
 ```
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
 ```
