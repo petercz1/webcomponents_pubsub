@@ -44,7 +44,7 @@ class appPerson extends HTMLElement {
   }
 
   registerDelete() {
-    this.pubsub.publish('Delete', this.person);
+    this.pubsub.publish('DeletePerson', this.person);
     this.pubsub.publish('Message', {
       "component": "app-person",
       "text": `deleting ${this.person.name} &#128561`
