@@ -13,7 +13,6 @@ class DataStore {
   // by passing a variable eg id (not implemented here)
   getRequest(subscriber) {
     return this[subscriber.request](subscriber.parameters);
-    //return res;
   }
 
   setRequest(request) {
