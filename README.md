@@ -84,7 +84,7 @@ Objects that are interested in those news items subscribe to the NewInfo, state 
 ```
 I could have wrapped all requests in an object, so instead of 
 <pre>
-    this.pubsub.subscribe(<b'NewPerson', 'getChosenPeople', null, this.renderData);
+    this.pubsub.subscribe(<b>'NewPerson'</b>, 'getChosenPeople', null, this.renderData);
     this.pubsub.subscribe('ChangePerson', 'getChosenPeople', null, this.renderData);
     this.pubsub.subscribe('DeletePerson', 'getChosenPeople', null, this.renderData);
 </pre>
