@@ -74,10 +74,10 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
 ```
 ### how does it work?
 Objects that have something to say publish a string of NewInfo and an object of data:
-`
+<pre>
     this.pubsub.publish('NewPerson', person);
     this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
-```
+</pre
 Objects that are interested in those news items subscribe to the NewInfo, state what info they want, pass parameters if needed (eg id) and give the callback function they want to be fired:
 ```
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
