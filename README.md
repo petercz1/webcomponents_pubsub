@@ -79,9 +79,9 @@ Objects that have something to say publish a string of NewInfo and an object of 
     this.pubsub.publish(<b>'Message', {"component": "app-addperson", "text": "adding " + person.name}</b>);
 </pre>
 Objects that are interested in those news items subscribe to the NewInfo, state what info they want, pass parameters if needed (eg id) and give the callback function they want to be fired:
-```
+<pre>
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
-```
+</>
 I could have wrapped all requests in an object, so instead of 
 ```
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
