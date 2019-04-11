@@ -100,7 +100,7 @@ Also I've not bothered with shadow dom as I like using Bootstrap to control over
 <pre>
 constructor(){
     super();
-    this.root = this.attachShadow({mode: 'open'});
+    <b>this.root = this.attachShadow({mode: 'open'});
     // etc
 }
 </pre>
