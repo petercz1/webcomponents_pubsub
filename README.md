@@ -73,7 +73,7 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
 └── README.md
 ```
 ### how does it work?
-Objects that have something to say publish the type of NewInfo and an object of data:
+Objects that have something to say publish a type of NewInfo and an object of data:
 ```
     this.pubsub.publish('NewPerson', person);
     this.pubsub.publish('Message', {"component": "app-addperson", "text": "adding " + person.name});
