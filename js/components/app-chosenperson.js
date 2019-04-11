@@ -1,14 +1,14 @@
 class appChosenPerson extends HTMLElement {
   constructor(person) {
     super();
+    this.person = person;
     this.renderData = this.renderData.bind(this);
-    this.renderData(person)
+    this.renderData()
   }
 
-  renderData(person) {
-    this.person = person;
+  renderData() {
 	this.innerHTML = `
-		${person.id}: ${person.name}</br>
+		${this.person.id}: ${this.person.name}</br>
     `;
   }
 }

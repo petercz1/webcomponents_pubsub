@@ -4,20 +4,20 @@ class appPerson extends HTMLElement {
   constructor(person) {
     super();
     this.pubsub = PubSub;
+    this.person = person;
     this.renderData = this.renderData.bind(this);
     this.registerChange = this.registerChange.bind(this);
     this.registerDelete = this.registerDelete.bind(this);
-    this.renderData(person)
+    this.renderData()
   }
 
-  renderData(person) {
-    this.person = person;
+  renderData() {
     this.innerHTML = `
-    <input type="checkbox" id="${person.id}" />
-    <label for="${person.id}" class="label">${person.name}</label>
-    <button class="delete">delete ${person.name}</button></br>
+    <input type="checkbox" id="${this.person.id}" />
+    <label for="${this.person.id}" class="label">${this.person.name}</label>
+    <button class="delete">delete ${this.person.name}</button></br>
     `;
-    if (person.checked) {
+    if (this.person.checked) {
       this.querySelector('input').setAttribute('checked', true);
     }
     this.querySelector('input').addEventListener('change', this.registerChange);
