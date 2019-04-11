@@ -1,8 +1,8 @@
 # web components demo with simple pubsub pattern
 
-No frameworks, just pure JavaScript ES6.
+[No frameworks](https://dev.to/gypsydave5/why-you-shouldnt-use-a-web-framework-3g24), just pure JavaScript ES6.
 
-It uses webcomponents and the pubsub pattern to allow each component to subscribe and/or publish to the datastore.
+It uses built-in ES6 webcomponents and the pubsub pattern to allow each component to subscribe and/or publish to the datastore. In 276 lines of pure Javascript.
 
 ![](demo.gif)
 
