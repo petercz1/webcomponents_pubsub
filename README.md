@@ -89,9 +89,9 @@ I could have wrapped all requests in an object, so instead of
     this.pubsub.subscribe(<b>'DeletePerson'</b>, 'getChosenPeople', null, this.renderData);
 </pre>
 we would have
-```
+<pre>
 this.pubsub.subscribe({'NewPerson','ChangePerson','DeletePerson'} 'getChosenPeople', null, this.renderData);
-```
+
 but then it would be more tricky to assign specific requests/callbacks to each NewInfo.
 
 Also I've not bothered with shadow dom as I like using Bootstrap to control overall css. If you want to add it, it's an easy two-part step:
