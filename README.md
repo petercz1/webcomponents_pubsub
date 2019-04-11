@@ -90,7 +90,7 @@ I could have wrapped all requests in an object, so instead of
 </pre>
 we would have
 <pre>
-this.pubsub.subscribe(<b>{'NewPerson','ChangePerson','DeletePerson'</b>} 'getChosenPeople', null, this.renderData);
+this.pubsub.subscribe(<b>{'NewPerson','ChangePerson','DeletePerson'} 'getChosenPeople', null, this.renderData);
 </pre>
 but then it would be more tricky to assign specific requests/callbacks to each NewInfo.
 
