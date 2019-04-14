@@ -8,7 +8,7 @@ class appPerson extends HTMLElement {
     this.renderData = this.renderData.bind(this);
     this.registerChange = this.registerChange.bind(this);
     this.registerDelete = this.registerDelete.bind(this);
-    this.renderData()
+    this.renderData();
   }
 
   renderData() {
@@ -22,7 +22,6 @@ class appPerson extends HTMLElement {
     }
     this.querySelector('input').addEventListener('change', this.registerChange);
     this.querySelector('button').addEventListener('click', this.registerDelete);
-    // this.addEventListener('change', this.registerChange);
   }
 
   registerChange() {
