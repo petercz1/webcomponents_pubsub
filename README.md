@@ -107,7 +107,8 @@ constructor(){
 * change all `this.innerHTML` references to `this.root.innerHTML`
 
 Finally, I've used [James Johnson's](http://jelly.codes/articles/javascript-es6-autobind-class/) excellent code to autobind 'this' for methods instead of having to do it in every class. So originally I had something like:
-<pre>
+<pre>class appAddperson extends RootElement {
+
 
 
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
