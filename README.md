@@ -2,7 +2,7 @@
 
 [No frameworks](https://dev.to/gypsydave5/why-you-shouldnt-use-a-web-framework-3g24), just pure JavaScript ES6.
 
-It uses built-in ES6 webcomponents and the pubsub pattern to allow each component to subscribe and/or publish to the datastore. In 276 lines of pure Javascript.
+It uses built-in ES6 webcomponents and the pubsub pattern to allow each component to subscribe and/or publish to the datastore. In 300 lines of pure Javascript.
 
 ![](demo.gif)
 
@@ -47,10 +47,10 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
 -------------------------------------------------------------------------------
  CSS                     1           53           46            0            7
  HTML                    1           23           20            0            3
- JavaScript             10          360          276           35           49
- Markdown                1           88           88            0            0
+ JavaScript             11          397          300           38           59
+ Markdown                1          118          118            0            0
 -------------------------------------------------------------------------------
- Total                  13          524          430           35           59
+ Total                  14          591          484           38           69
 
 ├── css
 │   └── style.css
@@ -111,7 +111,6 @@ Finally, I've used [James Johnson's](http://jelly.codes/articles/javascript-es6-
 I now have:
 <pre>class appAddperson extends RootElement {}</pre>
 and RootElement (with James' code) extends HTMLElement.
-
 
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
 
