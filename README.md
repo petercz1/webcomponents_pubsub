@@ -65,7 +65,8 @@ Suddenly I saw the light. Plain ES6 web components and no frameworks. Hence this
 │   │   ├── app-console.js
 │   │   ├── app-messages.js
 │   │   ├── app-people.js
-│   │   └── app-person.js
+│   │   ├── app-person.js
+│   │   └── app-rootelement.js
 │   ├── main.js
 │   └── pubsub
 │       ├── datastore.js
