@@ -1,10 +1,11 @@
+import RootElement from './app-rootelement.js';
+
 import PubSub from '../pubsub/pubsub.js';
 
-class appConsole extends HTMLElement {
+class appConsole extends RootElement {
   constructor() {
 		super();
 		this.pubsub = PubSub;
-		this.renderData = this.renderData.bind(this);
 		this.renderData(this.pubsub.getData('getPeople', null));
 		this.pubsub.subscribe('NewPerson', 'getPeople', null, this.renderData);
 		this.pubsub.subscribe('ChangePerson', 'getPeople', null, this.renderData);

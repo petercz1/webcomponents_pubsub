@@ -1,10 +1,11 @@
+import RootElement from './app-rootelement.js';
+
 import PubSub from '../pubsub/pubsub.js';
 
-class appMessages extends HTMLElement {
+class appMessages extends RootElement {
   constructor() {
 		super();
 		this.pubsub = PubSub;
-		this.renderData = this.renderData.bind(this);
 		this.renderData(this.pubsub.getData('getMessage', null));
 		this.pubsub.subscribe('Message', 'getMessage', null, this.renderData);
   }

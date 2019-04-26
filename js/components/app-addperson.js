@@ -1,12 +1,10 @@
+import RootElement from './app-rootelement.js';
 import PubSub from '../pubsub/pubsub.js';
 
-class appAddperson extends HTMLElement {
+class appAddperson extends RootElement {
   constructor() {
     super();
     this.pubsub = PubSub;
-    // binds 'this' to these methods
-    this.renderData = this.renderData.bind(this);
-    this.addPerson = this.addPerson.bind(this);
     this.renderData();
   }
 

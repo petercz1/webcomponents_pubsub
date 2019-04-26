@@ -1,4 +1,5 @@
 // import webcomponents
+import './components/app-rootelement.js';
 import './components/app-people.js';
 import './components/app-messages.js';
 import './components/app-console.js';

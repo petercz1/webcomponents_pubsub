@@ -1,11 +1,11 @@
+import RootElement from './app-rootelement.js';
 import PubSub from '../pubsub/pubsub.js';
 import ChosenPerson from './app-chosenperson.js';
 
-class appChosenPeople extends HTMLElement {
+class appChosenPeople extends RootElement {
   constructor() {
     super();
     this.pubsub = PubSub;
-    this.renderData = this.renderData.bind(this);
     this.renderData(this.pubsub.getData('getChosenPeople', null));
     this.pubsub.subscribe('NewPerson', 'getChosenPeople', null, this.renderData);
     this.pubsub.subscribe('ChangePerson', 'getChosenPeople', null, this.renderData);

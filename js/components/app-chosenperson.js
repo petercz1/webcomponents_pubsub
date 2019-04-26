@@ -1,8 +1,9 @@
-class appChosenPerson extends HTMLElement {
+import RootElement from './app-rootelement.js';
+
+class appChosenPerson extends RootElement {
   constructor(person) {
     super();
     this.person = person;
-    this.renderData = this.renderData.bind(this);
     this.renderData()
   }
 
