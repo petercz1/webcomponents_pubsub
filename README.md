@@ -110,7 +110,7 @@ Finally, I've used [James Johnson's](http://jelly.codes/articles/javascript-es6-
 <pre>class appAddperson extends HTMLElement {}</pre>
 I now have:
 <pre>class appAddperson extends RootElement {}</pre>
-and RootElement extends HTMLElement.
+and RootElement (with James' code) extends HTMLElement.
 
 
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
