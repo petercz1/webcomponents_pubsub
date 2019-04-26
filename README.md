@@ -108,7 +108,7 @@ constructor(){
 
 Finally, I've used [James Johnson's](http://jelly.codes/articles/javascript-es6-autobind-class/) excellent code to autobind 'this' for methods instead of having to do it in every class. So originally I had something like:
 <pre>class appAddperson extends RootElement {}</pre>
-I now have
+I now have:
 <pre>class appAddperson extends RootElement {}</pre>
 
 
