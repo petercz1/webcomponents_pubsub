@@ -114,7 +114,7 @@ I now have:
 and RootElement (with James' code) extends HTMLElement.
 
 It did need a couple of changes:
-// 1) c[urrCls.__proto__] is deprecated in favor of Object.getPrototypeOf(currCls)
+// 1) c[urrCls.__proto__](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto) is deprecated in favor of Object.getPrototypeOf(currCls)
 // 2) Object.getPrototypeOf(currCls) needs to be checked for null/undefined, hence the check on line 16
 //
 
