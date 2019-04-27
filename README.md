@@ -115,7 +115,7 @@ and RootElement (with James' code) extends HTMLElement.
 
 It did need a couple of changes:
 // 1) c[urrCls.__proto__](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/proto) is deprecated in favor of [Object.getPrototypeOf(currCls)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf)
-// 2) Object.getPrototypeOf(currCls) needs to be checked for null/undefined, hence the check on line 16
+// 2) Object.getPrototypeOf(currCls) needs to be checked for null/undefined, hence the check on line 16 in 
 //
 
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
