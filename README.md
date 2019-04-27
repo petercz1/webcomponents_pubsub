@@ -113,6 +113,11 @@ I now have:
 <pre>class appAddperson extends RootElement {}</pre>
 and RootElement (with James' code) extends HTMLElement.
 
+/ but with a couple of changes:
+// 1) currCls.__proto__ is deprecated in favor of Object.getPrototypeOf(currCls)
+// 2) Object.getPrototypeOf(currCls) needs to be checked for null/undefined, hence the check on line 16
+//
+
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
 
 Enjoy.
