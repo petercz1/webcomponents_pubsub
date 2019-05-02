@@ -121,4 +121,4 @@ It did need a couple of changes:
 
 The [Vaadin](https://www.youtube.com/channel/UCsGakFIbOsj-fgPFLf1QlQA) clip that showed me the way is [here](https://www.youtube.com/watch?v=mTNdTcwK3MM&t=213s)
 
-Enjoy.
+Use as you like, ask questions if stuck, and stars are nice (top right)...
